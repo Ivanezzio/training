@@ -32,8 +32,8 @@ task google_tests (type: Test) {
     }
 }
 
-task createNewIssue (type: Test) {
+task vk_tests (type: Test) {
     useJUnitPlatform {
-        includeTags 'issue_tests'
+        includeTags 'vk_tests'
     }
 }
